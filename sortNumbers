@@ -1,0 +1,29 @@
+'''
+Created on 07/feb/2016
+
+@author: Matteo
+'''
+#numbers = "40 27 20 8 16 3 42 36 13 49 11 26 9 22 31 29 5 0 19 39 4 12 33 48 6 21 37 45 14 46 18 43 32 38 44 7 34 41 10 23 25 24 15 35 2 1 47 17 28 30"
+number = 40, 27, 20, 8, 16, 3, 42, 36, 13, 49, 11, 26, 9, 22, 31, 29, 5, 0, 19, 39, 4, 12, 33, 48, 6, 21, 37, 45, 14, 46, 18, 43, 32, 38, 44, 7, 34, 41, 10, 23, 25, 24, 15, 35, 2, 1, 47, 17, 28, 30 
+numeri = []
+
+#########se si parte da una stringa:##########
+#prova = list(numbers.split(sep=" "))
+# for i in prova:
+#     numeri.append(int(i))
+# 
+# print (numeri)
+# numeri.sort()
+# 
+# for i in numeri:
+#     print (i, end=" ")
+
+print (number)
+for i in number:
+    print (i)
+    numeri.append(i)
+    
+numeri.sort()
+# 
+for i in numeri:
+    print (i, end=" ")
